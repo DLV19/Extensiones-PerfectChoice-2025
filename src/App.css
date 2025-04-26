@@ -38,6 +38,40 @@ body {
   transition: all 0.4s ease;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-accent);
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.logo-container img {
+  width: 80px;
+  transition: transform 0.3s ease;
+}
+
+.logo-container img:hover {
+  transform: scale(1.05);
+}
+
+.center-info {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.9;
+  flex: 1;
+}
+
+.phone-info {
+  text-align: right;
+  font-size: 14px;
+}
+
 .contenedor {
   max-width: 1000px;
   margin: auto;
@@ -47,16 +81,6 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.reloj-interno {
-  background-color: var(--color-input-bg);
-  color: var(--color-accent);
-  padding: 12px 18px;
-  border-radius: 12px;
-  font-size: 14px;
-  font-style: italic;
-  margin-bottom: 20px;
-  box-shadow: 0 0 5px rgba(217, 164, 4, 0.2);
-}
 
 header img {
   width: 100px;
@@ -64,7 +88,7 @@ header img {
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 5vw, 2.5rem); /* 🚀 Ahora responsivo */
   font-weight: bold;
   color: var(--color-accent);
   margin-top: 0;
@@ -154,10 +178,6 @@ footer {
     width: 60px;
   }
 
-  header h1 {
-    font-size: 1.5rem;
-  }
-
   input[type="text"],
   select {
     font-size: 14px;
@@ -177,43 +197,3 @@ footer {
     padding: 15px;
   }
 }
-
-
-
-/*  Responsive design */
-@media (max-width: 768px) {
-  .contenedor {
-    padding: 1rem;
-    margin: 0 1rem;
-    border-radius: 0;
-    box-shadow: none;
-  }
-
-  header img {
-    width: 60px;
-  }
-
-  header h1 {
-    font-size: 1.5rem;
-  }
-
-  input[type="text"],
-  select {
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  table {
-    font-size: 14px;
-  }
-
-  th, td {
-    padding: 10px;
-  }
-
-  footer {
-    font-size: 12px;
-    padding: 15px;
-  }
-}
-

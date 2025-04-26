@@ -85,35 +85,25 @@ function App() {
         </button>
       </div>
 
-      {/* 🕒 Reloj institucional */}
-      <motion.div 
-        className="reloj-interno"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 1 }}
-      >
-        <p>{fechaFormateada}</p>
-        <p>{horaFormateada}</p>
-      </motion.div>
-
+      
       {/* 📋 Encabezado */}
-      <header style={{ textAlign: "center", marginBottom: "20px" }}>
-  <img
-    src="/logo-perfectchoice.png"
-    alt="Logo Perfect Choice"
-    style={{ width: "120px", marginBottom: "10px" }}
-  />
-  
-  <h1 style={{ fontSize: "1.8rem", margin: "10px 0", color: "var(--color-accent)" }}>
-    <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
-      EXTENSIONES <span role="img" aria-label="phone">☎️</span>
-    </span>
-  </h1>
-  
-  <p style={{ fontSize: "1rem", color: "var(--color-secondary)", marginTop: "5px" }}>
-    TELÉFONO CAMPUS: <strong>33-32-83-15-00</strong>
-  </p>
-</header>
+      <nav className="navbar">
+  <div className="logo-container">
+    <img src="/logo-perfectchoice.png" alt="Logo PerfectChoice" />
+  </div>
+
+  <div className="center-info">
+    <p>{fechaFormateada}</p>
+    <p>{horaFormateada}</p>
+  </div>
+
+  <div className="phone-info">
+    <span>CAMPUS ☎️</span><br />
+    <strong>33-32-83-15-00</strong>
+  </div>
+</nav>
+
+
 
       {/* 🎛️ Filtros */}
       <FiltroDepartamento
