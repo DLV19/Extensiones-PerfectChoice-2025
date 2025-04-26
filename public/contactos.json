@@ -1,0 +1,409 @@
+[
+    {
+      "nombre": "Hernández Hernández Monica Lucia",
+      "extension": "1500",
+      "correo": "recepcion@perfectchoice.me",
+      "celular": "",
+      "departamento": "Recepción"
+    },
+    {
+      "nombre": "Coronado Magaña Felipe",
+      "extension": "1505",
+      "correo": "felipe@perfectchoice.me",
+      "celular": "",
+      "departamento": "Dirección"
+    },
+    {
+      "nombre": "Valdez Simancas Cecilia",
+      "extension": "1503",
+      "correo": "ceci@perfectchoice.me",
+      "celular": "",
+      "departamento": "Dirección"
+    },
+    {
+      "nombre": "Valladolid Cubillo Maria Montserrat",
+      "extension": "1502",
+      "correo": "mvalladolid@perfectchoice.me",
+      "celular": "3311772889",
+      "departamento": "Recursos Humanos"
+    },
+    {
+      "nombre": "Tello Palomar Alma Georgina",
+      "extension": "1611",
+      "correo": "georgina@perfectchoice.me",
+      "celular": "",
+      "departamento": "Recursos Humanos"
+    },
+    {
+      "nombre": "Delgado Serrano Maria De Jesus",
+      "extension": "1711",
+      "correo": "mdelgado@perfectchoice.me",
+      "celular": "",
+      "departamento": "IT"
+    },
+    {
+      "nombre": "Soporte IT",
+      "extension": "1712",
+      "correo": "helpdesk@perfectchoice.me",
+      "celular": "",
+      "departamento": "IT"
+    },
+    {
+      "nombre": "Soporte IT",
+      "extension": "1713",
+      "correo": "helpdesk@perfectchoice.me",
+      "celular": "",
+      "departamento": "IT"
+    },
+    {
+      "nombre": "Delgado Serrano Maria De Jesus",
+      "extension": "1714",
+      "correo": "mdelgado@perfectchoice.me",
+      "celular": "3311664971",
+      "departamento": "IT"
+    },
+    {
+      "nombre": "Huerta Gómez Rodrigo",
+      "extension": "1811",
+      "correo": "rodrig.hg@perfectchoice.me",
+      "celular": "3310255113",
+      "departamento": "Ingeniería y calidad"
+    },
+    {
+      "nombre": "Aguayo Ortiz Erick Fernando",
+      "extension": "1814",
+      "correo": "eaguayo@perfectchoice.me",
+      "celular": "",
+      "departamento": "Ingeniería y calidad"
+    },
+    {
+      "nombre": "Parada Rivera Cesar Fabian",
+      "extension": "1815",
+      "correo": "cesar.pr@perfectchoice.me",
+      "celular": "",
+      "departamento": "Ingeniería y calidad"
+    },
+    {
+      "nombre": "Vera Silva Eric",
+      "extension": "1812",
+      "correo": "eric@perfectchoic.me",
+      "celular": "3338497405",
+      "departamento": "Servicios De Planta"
+    },
+    {
+      "nombre": "Pérez Medina Omar",
+      "extension": "2011",
+      "correo": "operezm@perfectchoice.me",
+      "celular": "3312203105",
+      "departamento": "Nuevos Productos"
+    },
+    {
+      "nombre": "Gutiérrez Lopez Laura Cecilia",
+      "extension": "1919",
+      "correo": "lgutierrez@perfectchoice.me",
+      "celular": "3322586683",
+      "departamento": "Compras"
+    },
+    {
+      "nombre": "Pérez Arellano Rosa Gabriela",
+      "extension": "1920",
+      "correo": "rperez@perfectchoice.me",
+      "celular": "3311779292",
+      "departamento": "Compras"
+    },
+    {
+      "nombre": "Llamas de la cerda maria esther",
+      "extension": "1922",
+      "correo": "esther@perfectchoice.me",
+      "celular": "3310255117",
+      "departamento": "Servicio a ventas"
+    },
+    {
+      "nombre": "Gonzalez Rodriguez Martha",
+      "extension": "1921",
+      "correo": "martha.gr@perfectchoice.me",
+      "celular": "3314094783",
+      "departamento": "Servicio a ventas"
+    },
+    {
+      "nombre": "Villaruel Gallardo josue de jesus",
+      "extension": "1924",
+      "correo": "servicio.ventas@perfectchoice.me",
+      "celular": "5514526677",
+      "departamento": "Servicio a ventas"
+    },
+    {
+      "nombre": "Vigilancia",
+      "extension": "1501",
+      "correo": "vigilancia@perfectchoice.me",
+      "celular": "3310255118",
+      "departamento": "Vigilancia"
+    },
+    {
+      "nombre": "Flores Iglesias Lidia Alejandra",
+      "extension": "1925",
+      "correo": "aflores@perfectchoice.me",
+      "celular": "3338081591",
+      "departamento": "Distribucion"
+    },
+    {
+      "nombre": "Pérez ruiz flor de luz",
+      "extension": "1912",
+      "correo": "inventarios@perfectchoice.me",
+      "celular": "",
+      "departamento": "Distribución"
+    },
+    {
+      "nombre": "Gonzalez Marin Karla Viridiana",
+      "extension": "1913",
+      "correo": "s.almacen@perfectchoice.me",
+      "celular": "3334855904",
+      "departamento": "Distribución"
+    },
+    {
+      "nombre": "Gonzáles Gracia Arturo Iván",
+      "extension": "1914",
+      "correo": "arturo@perfectchoice.me",
+      "celular": "3338497522",
+      "departamento": "Distribución"
+    },
+    {
+      "nombre": "Colmenares Torres José De Jesús Moisés",
+      "extension": "1527",
+      "correo": "",
+      "celular": "5579760749",
+      "departamento": "Distribución"
+    },
+    {
+      "nombre": "Lopez Gonzalez Armando",
+      "extension": "1918",
+      "correo": "surtido@perfectchoice.me",
+      "celular": "",
+      "departamento": "Distribución"
+    },
+    {
+      "nombre": "Estrada Rodriguez Silvia",
+      "extension": "1916",
+      "correo": "produccion@perfectchoice.me",
+      "celular": "",
+      "departamento": "Distribución"
+    },
+    {
+      "nombre": "Aguilar Andalon Edgar Alejandro",
+      "extension": "1917",
+      "correo": "ingreso@perfectchoice.me",
+      "celular": "",
+      "departamento": "Distribución"
+    },
+    {
+      "nombre": "Padilla De Juan Edith Karina",
+      "extension": "2111",
+      "correo": "epadilla@perfectchoice.me",
+      "celular": "3315452269",
+      "departamento": "Mercadotecnia"
+    },
+    {
+      "nombre": "Ocegueda Ocegueda Jannette",
+      "extension": "2113",
+      "correo": "jocegueda@perfectchoice.me",
+      "celular": "",
+      "departamento": "Mercadotecnia"
+    },
+    {
+      "nombre": "Lopez Santos Delia Rosalia",
+      "extension": "2114",
+      "correo": "delia@perfectchoice.me",
+      "celular": "",
+      "departamento": "Mercadotecnia"
+    },
+    {
+      "nombre": "Alvarez Martinez Arturo Giovanni",
+      "extension": "2115",
+      "correo": "aalvarez@perfectchoice.me",
+      "celular": "3338497444",
+      "departamento": "Mercadotecnia"
+    },
+    {
+      "nombre": "Casillas Martinez Cesar",
+      "extension": "2116",
+      "correo": "acasillas@perfectchoice.me",
+      "celular": "5581723378",
+      "departamento": "Mercadotecnia"
+    },
+    {
+      "nombre": "Espinoza Pardo Andrea Jacqueline",
+      "extension": "2117",
+      "correo": "aespinoza@perfectchoice.me",
+      "celular": "",
+      "departamento": "Mercadotecnia"
+    },
+    {
+      "nombre": "Alducin Martinez Edgar",
+      "extension": "2211",
+      "correo": "ealducin@perfectchoice.me",
+      "celular": "",
+      "departamento": "Finanzas"
+    },
+    {
+      "nombre": "Partida Pérez Christian Fernando",
+      "extension": "2212",
+      "correo": "tesoreria@perfectchoice.me",
+      "celular": "",
+      "departamento": "Finanzas"
+    },
+    {
+      "nombre": "Valles Rodriguez Nidia Ofelia",
+      "extension": "2214",
+      "correo": "nidia@perfectchoice.me",
+      "celular": "",
+      "departamento": "Finanzas"
+    },
+    {
+      "nombre": "Cervantes Jimenez Bertha",
+      "extension": "2216",
+      "correo": "bertha.cj@pefectchoice.me",
+      "celular": "",
+      "departamento": "Finanzas"
+    },
+    {
+      "nombre": "Corona Venegas Jose De Jesus",
+      "extension": "2218",
+      "correo": "jcorona@perfectchoice.me",
+      "celular": "",
+      "departamento": "Finanzas"
+    },
+    {
+      "nombre": "Damian Lozano Oscar Yocio",
+      "extension": "2218",
+      "correo": "odamian@perfectchoice.me",
+      "celular": "5579760752",
+      "departamento": "Finanzas"
+    },
+    {
+      "nombre": "Oficina CDMX",
+      "extension": "3500",
+      "correo": "",
+      "celular": "",
+      "departamento": "CDMX"
+    },
+    {
+      "nombre": "Vazquez Rojano Gustavo",
+      "extension": "3315",
+      "correo": "contacto.cdmx@perfectchoice.me",
+      "celular": "5514526646",
+      "departamento": "CDMX"
+    },
+    {
+      "nombre": "Garcia Castillon Juan Gilberto",
+      "extension": "3517",
+      "correo": "gilberto@perfectchoice.me",
+      "celular": "5514731663",
+      "departamento": "CDMX"
+    },
+    {
+      "nombre": "Aguilar Corchado Yesika",
+      "extension": "4011",
+      "correo": "yeskika.ac@perfectchoice.me",
+      "celular": "5514526649",
+      "departamento": "CDMX"
+    },
+    {
+      "nombre": "Sosa Martinez Ricardo",
+      "extension": "4005",
+      "correo": "ricardo.sm@perfectchoice.me",
+      "celular": "5514526649",
+      "departamento": "CDMX"
+    },
+    {
+      "nombre": "Dueñas Hernández Carlos Joel",
+      "extension": "4008",
+      "correo": "cduenas@perfectchoice.me",
+      "celular": "5541784394",
+      "departamento": "CDMX"
+    },
+    {
+      "nombre": "Horta Rua Paula Maricela",
+      "extension": "4025",
+      "correo": "phorta@perfectchoice.me",
+      "celular": "5514526679",
+      "departamento": "CDMX"
+    },
+    {
+      "nombre": "Pérez Valdez Norma Margarita",
+      "extension": "3525",
+      "correo": "nperez@perfectchoice.me",
+      "celular": "5581723405",
+      "departamento": "CDMX"
+    },
+    {
+      "nombre": "Estrada Carreón Cesar Osvaldo",
+      "extension": "3012",
+      "correo": "cestrada@perfectchoice.me",
+      "celular": "5581723391",
+      "departamento": "Ventas GDL"
+    },
+    {
+      "nombre": "Valdez Corona Isabel",
+      "extension": "1538",
+      "correo": "vtas.occidente@perfectchoice.me",
+      "celular": "3310255114",
+      "departamento": "Ventas GDL"
+    },
+    {
+      "nombre": "Alcocer Marrufo Carolina",
+      "extension": "1535",
+      "correo": "vtas.sureste@perfectchoice.me",
+      "celular": "",
+      "departamento": "Ventas"
+    },
+    {
+      "nombre": "Ramirez Javier",
+      "extension": "1537",
+      "correo": "vtas.bajio@perfectchoice.me",
+      "celular": "",
+      "departamento": "Ventas"
+    },
+    {
+      "nombre": "Jimenez Avalos Fernando Ulises",
+      "extension": "2411",
+      "correo": "fjimenez@perfectchoice.me",
+      "celular": "",
+      "departamento": "Centro De Diseño"
+    },
+    {
+      "nombre": "Landeros Tellez Allen",
+      "extension": "2412",
+      "correo": "alanderos@perfectchoice.me",
+      "celular": "",
+      "departamento": "Centro De Diseño"
+    },
+    {
+      "nombre": "Gutiérrez Castellanos Salvador",
+      "extension": "1529",
+      "correo": "salvador@perfechoice.me",
+      "celular": "3310255121",
+      "departamento": "Tiendas"
+    },
+    {
+      "nombre": "Tienda Plaza Patria",
+      "extension": "1530",
+      "correo": "plazapatriagdl@perfecchoice.me",
+      "celular": "3331110482",
+      "departamento": "Tiendas"
+    },
+    {
+      "nombre": "Tienda Plaza Del Sol",
+      "extension": "1531",
+      "correo": "t.plazadelsol@perfectchoice.me",
+      "celular": "3331215556",
+      "departamento": ""
+    },
+
+    {
+      "nombre": "Soporte Y calidad",
+      "extension": "5500",
+      "correo": "",
+      "celular": "",
+      "departamento": "Ingeniería y calidad"
+    }
+  ]

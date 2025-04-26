@@ -1,0 +1,219 @@
+/* :root = Variables para Modo Claro */
+:root {
+  --color-bg: #f4f4f4;
+  --color-text: #2b2b2b;
+  --color-secondary: #555555;
+  --color-accent: #d9a404;
+  --color-link: #0077cc;
+  --color-success: #2ecc71;
+  --color-error: #e74c3c;
+  --color-input-bg: #ffffff;
+  --color-table-bg: #fefefe;
+  --color-table-hover: #eeeeee;
+  --color-border: #cccccc;
+}
+
+/* 🌑 Variables para Modo Oscuro */
+.dark-theme {
+  --color-bg: #121212;
+  --color-text: #eeeeee;
+  --color-secondary: #aaaaaa;
+  --color-accent: #f4c542;
+  --color-link: #66aaff;
+  --color-success: #27ae60;
+  --color-error: #e74c3c;
+  --color-input-bg: #2b2b2b;
+  --color-table-bg: #1c1c1c;
+  --color-table-hover: #292929;
+  --color-border: #444444;
+}
+
+/* 🌐 Estilos generales usando las variables */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 40px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: all 0.4s ease;
+}
+
+.contenedor {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  background-color: var(--color-bg);
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.reloj-interno {
+  background-color: var(--color-input-bg);
+  color: var(--color-accent);
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(217, 164, 4, 0.2);
+}
+
+header img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-accent);
+  margin-top: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: var(--color-input-bg);
+  color: var(--color-text);
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 8px var(--color-accent);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-table-bg);
+  margin-top: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 15px;
+}
+
+th {
+  background-color: var(--color-input-bg);
+  color: var(--color-accent);
+}
+
+tr:hover {
+  background-color: var(--color-table-hover);
+  transition: background-color 0.3s ease;
+}
+
+button {
+  font-size: 16px;
+  background-color: var(--color-accent);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f1ba10;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 14px;
+  color: var(--color-secondary);
+  border-top: 1px solid var(--color-border);
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .contenedor {
+    padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  header img {
+    width: 60px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  input[type="text"],
+  select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 15px;
+  }
+}
+
+
+
+/*  Responsive design */
+@media (max-width: 768px) {
+  .contenedor {
+    padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  header img {
+    width: 60px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  input[type="text"],
+  select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 15px;
+  }
+}
+
