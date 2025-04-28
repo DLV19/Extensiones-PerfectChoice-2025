@@ -165,6 +165,12 @@ footer {
   border-top: 1px solid var(--color-border);
 }
 
+input[type="text"] {
+  height: 48px; /* o ajusta al mismo alto que el select */
+  box-sizing: border-box; /* asegura que padding + border no rompan el tamaño */
+}
+
+
 /* 📱 Responsive */
 @media (max-width: 768px) {
   .contenedor {
