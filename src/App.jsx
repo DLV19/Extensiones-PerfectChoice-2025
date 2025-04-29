@@ -98,7 +98,7 @@ function App() {
   </div>
 
   <div className="phone-info">
-    <span>CAMPUS ☎️</span><br />
+    <span>Campus Perfect Choice</span><br />
     <strong>33-32-83-15-00</strong>
   </div>
 </nav>
@@ -137,7 +137,7 @@ function App() {
           borderTop: "1px solid #333",
         }}
       >
-        PerfectChoice © 2025 - Todos los derechos reservados<br /> 
+        PerfectChoice © 2025 - Av. Magallanes No. 1155, Col, 45600 Santa Anita, Jal.<br /> 
         ¿Tienes problemas, repórtalos a las extensiones 1712 o 1713?<br/>
         Powered by DLV ⚛️⚡
       </footer>
