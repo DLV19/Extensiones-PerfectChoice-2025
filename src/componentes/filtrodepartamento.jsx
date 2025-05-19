@@ -9,6 +9,7 @@ function FiltroDepartamento({ departamento, setDepartamento }) {
       "Distribución",
       "Compras",
       "Servicio a ventas",
+      "Servicios De Planta",
       "Vigilancia",
       "Mercadotecnia",
       "Finanzas",
