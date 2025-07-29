@@ -106,12 +106,12 @@ function App() {
 
 
       {/* 🎛️ Filtros */}
+      <Buscador busqueda={busqueda} setBusqueda={setBusqueda} />
       <FiltroDepartamento
         departamento={departamento}
         setDepartamento={setDepartamento}
       />
-      <Buscador busqueda={busqueda} setBusqueda={setBusqueda} />
-
+      
       {/* 📊 Tabla de resultados */}
       <TablaContactos contactos={contactosFiltrados} />
 
