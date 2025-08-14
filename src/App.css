@@ -1,5 +1,9 @@
-/* :root = Variables para Modo Claro */
+/* ================================
+   🎛️ Design tokens (modo claro)
+   Mantengo tus vars y agrego alias
+   ================================ */
 :root {
+  /* Tus tokens originales */
   --color-bg: #f4f4f4;
   --color-text: #2b2b2b;
   --color-secondary: #555555;
@@ -11,9 +15,27 @@
   --color-table-bg: #fefefe;
   --color-table-hover: #eeeeee;
   --color-border: #cccccc;
+
+  /* Aliases usados en el JS mejorado */
+  --background: var(--color-bg);
+  --foreground: var(--color-text);
+  --muted-foreground: var(--color-secondary);
+  --accent: var(--color-accent);
+  --link: var(--color-link);
+  --success: var(--color-success);
+  --error: var(--color-error);
+  --input-bg: var(--color-input-bg);
+  --table-bg: var(--color-table-bg);
+  --table-hover: var(--color-table-hover);
+  --border: var(--color-border);
+
+  /* Extras de UI */
+  --panel-bg: #ffffff;          /* Tarjeta/panel (contenedor) */
+  --ring: rgba(217, 164, 4, .45);/* Anillo de foco acorde a --accent */
+  --shadow-soft: 0 0 15px rgba(0, 0, 0, 0.08);
 }
 
-/* 🌑 Variables para Modo Oscuro */
+/* 🌑 Modo oscuro (override de tokens) */
 .dark-theme {
   --color-bg: #121212;
   --color-text: #eeeeee;
@@ -26,24 +48,74 @@
   --color-table-bg: #1c1c1c;
   --color-table-hover: #292929;
   --color-border: #444444;
+
+  /* Aliases en dark */
+  --background: var(--color-bg);
+  --foreground: var(--color-text);
+  --muted-foreground: var(--color-secondary);
+  --accent: var(--color-accent);
+  --link: var(--color-link);
+  --success: var(--color-success);
+  --error: var(--color-error);
+  --input-bg: var(--color-input-bg);
+  --table-bg: var(--color-table-bg);
+  --table-hover: var(--color-table-hover);
+  --border: var(--color-border);
+
+  /* Panel un poco más claro que el bg general para contraste */
+  --panel-bg: #181818;
+  --ring: rgba(244, 197, 66, .45);
 }
 
-/* 🌐 Estilos generales usando las variables */
+/* ================================
+   🌐 Base
+   ================================ */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+}
+
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif;
   margin: 0;
   padding: 40px;
-  background: var(--color-bg);
-  color: var(--color-text);
-  transition: all 0.4s ease;
+  background: var(--background);
+  color: var(--foreground);
   line-height: 1.6;
+
+  /* Evitamos "transition: all" para no animar layout */
+  transition: background-color .3s ease, color .3s ease, border-color .3s ease;
 }
 
+/* Links */
+a { color: var(--link); }
+a:hover { text-decoration: underline; }
+
+/* ================================
+   🧱 Contenedor/panel
+   ================================ */
+.contenedor {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+  background-color: var(--panel-bg);
+  border-radius: 20px;
+  box-shadow: var(--shadow-soft);
+  transition: background-color .3s ease, box-shadow .3s ease;
+}
+
+/* ================================
+   🧭 Navbar
+   ================================ */
 .navbar {
   display: flex;
+  gap: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-accent);
+  background-color: var(--accent);
   padding: 10px 20px;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -53,73 +125,94 @@ body {
 
 .logo-container img {
   width: 110px;
-  transition: transform 0.3s ease;
+  transition: transform 0.25s ease;
 }
-
-.logo-container img:hover {
-  transform: scale(1.05);
-}
+.logo-container img:hover { transform: scale(1.05); }
 
 .center-info {
   text-align: center;
   font-size: 15px;
   font-style: italic;
-  opacity: 0.9;
+  opacity: 0.95;
   flex: 1;
+  min-width: 220px;
 }
 
 .phone-info {
   text-align: right;
   font-size: 17px;
+  min-width: 220px;
 }
 
-.contenedor {
-  max-width: 1000px;
-  margin: auto;
-  padding: 2rem;
-  background-color: var(--color-bg);
-  border-radius: 20px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-
+/* ================================
+   🏷️ Headings y header
+   ================================ */
 header img {
   width: 100px;
   margin-bottom: 10px;
 }
-
 header h1 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem); /* 🚀 Ahora responsivo */
-  font-weight: bold;
-  color: var(--color-accent);
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-weight: 700;
+  color: var(--accent);
   margin-top: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
+/* ================================
+   🧰 Inputs / Select / Button
+   ================================ */
 input[type="text"],
 select {
   width: 100%;
   padding: 12px;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--border);
   border-radius: 10px;
   margin-bottom: 20px;
   font-size: 16px;
-  background-color: var(--color-input-bg);
-  color: var(--color-text);
-  transition: all 0.3s ease;
+  background-color: var(--input-bg);
+  color: var(--foreground);
+  transition: background-color .25s, color .25s, border-color .25s, box-shadow .2s;
 }
 
-input[type="text"]:focus,
-select:focus {
+input[type="text"] {
+  height: 48px;
+  box-sizing: border-box;
+}
+
+/* Focus visible accesible */
+input[type="text"]:focus-visible,
+select:focus-visible,
+button:focus-visible {
   outline: none;
-  border-color: var(--color-accent);
-  box-shadow: 0 0 8px var(--color-accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--ring);
 }
 
+/* Placeholder más sutil */
+::placeholder { color: var(--muted-foreground); opacity: .8; }
+
+/* Botones */
+button {
+  font-size: 16px;
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform .08s ease, background-color .2s ease;
+}
+button:hover { background-color: #f1ba10; }
+button:active { transform: translateY(1px); }
+
+/* ================================
+   📊 Tabla
+   ================================ */
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: var(--color-table-bg);
+  background-color: var(--table-bg);
   margin-top: 1rem;
   border-radius: 12px;
   overflow: hidden;
@@ -128,79 +221,68 @@ table {
 th, td {
   padding: 14px 16px;
   text-align: left;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--border);
   font-size: 15px;
 }
 
 th {
-  background-color: var(--color-input-bg);
-  color: var(--color-accent);
+  background-color: var(--input-bg);
+  color: var(--accent);
 }
 
 tr:hover {
-  background-color: var(--color-table-hover);
-  transition: background-color 0.3s ease;
+  background-color: var(--table-hover);
+  transition: background-color 0.25s ease;
 }
 
-button {
-  font-size: 16px;
-  background-color: var(--color-accent);
-  color: #fff;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+/* Tablas responsivas (scroll horizontal solo en pantallas pequeñas) */
+@media (max-width: 768px) {
+  table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 }
 
-button:hover {
-  background-color: #f1ba10;
-}
-
+/* ================================
+   📦 Footer
+   ================================ */
 footer {
   text-align: center;
   margin-top: 40px;
   padding: 20px;
   font-size: 14px;
-  color: var(--color-secondary);
-  border-top: 1px solid var(--color-border);
+  color: var(--muted-foreground);
+  border-top: 1px solid var(--border);
 }
 
-input[type="text"] {
-  height: 48px; /* o ajusta al mismo alto que el select */
-  box-sizing: border-box; /* asegura que padding + border no rompan el tamaño */
+/* ================================
+   🫥 Accesibilidad visual
+   ================================ */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; overflow: hidden;
+  clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
 }
 
+/* ================================
+   💤 Reduced motion
+   ================================ */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
 
-/* 📱 Responsive */
+/* ================================
+   📱 Responsive extra
+   ================================ */
 @media (max-width: 768px) {
+  body { padding: 16px; }
   .contenedor {
     padding: 1rem;
-    margin: 0 1rem;
-    border-radius: 0;
+    margin: 0;
+    border-radius: 12px;
     box-shadow: none;
   }
-
-  header img {
-    width: 60px;
-  }
-
-  input[type="text"],
-  select {
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  table {
-    font-size: 14px;
-  }
-
-  th, td {
-    padding: 10px;
-  }
-
-  footer {
-    font-size: 12px;
-    padding: 15px;
-  }
+  header img { width: 60px; }
+  input[type="text"], select { font-size: 14px; padding: 8px; }
+  table { font-size: 14px; }
+  th, td { padding: 10px; }
+  footer { font-size: 12px; padding: 15px; }
 }
