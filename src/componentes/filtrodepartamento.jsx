@@ -19,7 +19,6 @@ const DEFAULTS = [
   "Ventas",
   "Ventas GDL",
   "Centro De Diseño",
-  "Tiendas",
 ];
 
 function FiltroDepartamento({
